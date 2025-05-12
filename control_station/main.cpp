@@ -3,14 +3,12 @@
 #include <memory>
 #include <thread>
 
-// Tangram Pro-generated serializer and transport
 #include "Serializer.hpp"
 #include "TangramTransportTypes.h"
 #include "afrl_cmasi_DerivedEntityFactory.hpp"
 #include "TangramTransport.hpp"
 #include "LMCPSerializer.hpp"
 
-// Tangram Pro-generated messages
 #include "afrl/cmasi/AirVehicleState.hpp"
 #include "afrl/cmasi/CameraAction.hpp"
 #include "afrl/cmasi/CameraConfiguration.hpp"
